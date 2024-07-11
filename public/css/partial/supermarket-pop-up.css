@@ -1,11 +1,11 @@
 .supermarket-pop-up {
   width: 130px;
   height: 50px;
-  background-color: #00A443;
+  background-color: #00a443;
   position: fixed;
   bottom: 30px;
-  right: 1370px;
-  z-index: 60;
+  left: 20px;
+  z-index: 1000;
   border-radius: 40px;
   .supermarket-pop-up__lable {
     width: 130px;
@@ -26,12 +26,13 @@
 .supermarket-pop-up__page {
   width: 460px;
   height: 350px;
-  position: absolute;
+  position: fixed;
   background-color: white;
-  box-shadow:  0 0 10px #2b2b2b;
+  box-shadow: 0 0 10px #2b2b2b;
   display: none;
-  top: -400px;
-  left: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
   z-index: 6;
   font-family: var(--iranyekan);
   border-radius: 9px;
@@ -44,7 +45,7 @@
     margin: 20px auto;
     padding: 10px;
     .supermarket-pop-up__page__top__right {
-      .supermarket-pop-up__page__top__right__regular-text{
+      .supermarket-pop-up__page__top__right__regular-text {
         font-size: 12px;
         line-height: 30px;
         color: gray;
@@ -66,20 +67,20 @@
       margin: 0 auto;
       border-radius: 10px;
       position: relative;
-      .supermarket-pop-up__page__bottom__right__top-text{
+      .supermarket-pop-up__page__bottom__right__top-text {
         display: flex;
         align-items: center;
         padding: 10px;
         column-gap: 7px;
-        img{
-            width: 20px;
+        img {
+          width: 20px;
         }
       }
-      .supermarket-pop-up__page__bottom__right__tag{
+      .supermarket-pop-up__page__bottom__right__tag {
         width: 50%;
         height: 25px;
         margin-right: 10px;
-        background-color:#44A447 ;
+        background-color: #44a447;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -87,44 +88,44 @@
         color: white;
         font-size: 12px;
         border-radius: 20px 0 20px 20px;
-        img{
-            width: 18px;
-            height: 18px;
+        img {
+          width: 18px;
+          height: 18px;
         }
       }
-      .supermarket-pop-up__page__bottom__right__picture{
+      .supermarket-pop-up__page__bottom__right__picture {
         width: 130px;
         height: 130px;
         position: absolute;
         bottom: 20px;
         left: 0;
-        img{
-            width:130px;
-            height: 130px;
-            background-position: right bottom;
+        img {
+          width: 130px;
+          height: 130px;
+          background-position: right bottom;
         }
       }
     }
     .supermarket-pop-up__page__bottom__left {
       width: 47%;
       height: 250px;
-      background-color: #FEEBDE;
+      background-color: #feebde;
       margin: 0 auto;
       border-radius: 10px;
-      .supermarket-pop-up__page__bottom__left__top-text{
+      .supermarket-pop-up__page__bottom__left__top-text {
         display: flex;
         align-items: center;
         padding: 10px;
         column-gap: 7px;
-        img{
-            width: 20px;
+        img {
+          width: 20px;
         }
       }
-      .supermarket-pop-up__page__bottom__left__tag{
+      .supermarket-pop-up__page__bottom__left__tag {
         width: 50%;
         height: 25px;
         margin-right: 10px;
-        background-color:#FE8260 ;
+        background-color: #fe8260;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -132,31 +133,31 @@
         color: white;
         font-size: 12px;
         border-radius: 20px 0 20px 20px;
-        img{
-            width: 18px;
-            height: 18px;
+        img {
+          width: 18px;
+          height: 18px;
         }
       }
-      .supermarket-pop-up__page__bottom__left__picture{
+      .supermarket-pop-up__page__bottom__left__picture {
         width: 130px;
         height: 130px;
         position: absolute;
         bottom: 30px;
         left: 16px;
-        img{
-            width:130px;
-            height: 130px;
-            background-position: right bottom;
+        img {
+          width: 130px;
+          height: 130px;
+          background-position: right bottom;
         }
       }
-    }    
+    }
   }
 }
 
-#supermarket-close , #supermarket-show{
-    display: none;
+#supermarket-close,
+#supermarket-show {
+  display: none;
 }
-#supermarket-show:checked ~ .supermarket-pop-up__page{
-    display: block !important;
+#supermarket-show:checked ~ .supermarket-pop-up__page {
+  display: block !important;
 }
-
