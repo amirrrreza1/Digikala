@@ -1,20 +1,20 @@
 .supermarket-pop-up {
   width: 130px;
   height: 50px;
-  background-color: #00a443;
-  position: fixed;
-  bottom: 30px;
-  left: 20px;
   z-index: 1000;
-  border-radius: 40px;
   .supermarket-pop-up__lable {
     width: 130px;
     height: 50px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    background-color: #00a443;
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
     justify-content: center;
     column-gap: 10px;
+    border-radius: 40px;
     font-family: var(--iranyekan);
     color: white;
     img {
@@ -32,7 +32,7 @@
   display: none;
   left: 50%;
   top: 50%;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   z-index: 6;
   font-family: var(--iranyekan);
   border-radius: 9px;
