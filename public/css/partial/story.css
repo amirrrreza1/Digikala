@@ -28,27 +28,30 @@
         color: #23254e;
         flex-flow: column wrap;
         row-gap: 35px;
-        
+
         .swiper-slide__story__image {
           width: 74px;
           height: 74px;
           padding-top: 20px;
           margin: 0 auto;
-
           img {
             width: inherit;
             height: inherit;
             border-radius: 50%;
             outline: 3px solid #944a9c;
             outline-offset: 3px;
-            &:active{
+            &:active {
               outline: 3px solid gray;
             }
           }
         }
         .swiper-slide__story__data {
-          width: 80%;
-
+          width: 87%;
+          height: 50px;
+          -webkit-box-orient: vertical;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
           font-family: var(--iranyekan);
           font-size: 11px;
           margin: 0 auto;

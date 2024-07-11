@@ -1,5 +1,5 @@
 .dastebandi__wraper {
-  width: 100%;
+  width: 90%;
   height: 430px;
   margin: 30px auto;
   overflow: hidden;
@@ -13,7 +13,7 @@
   font-size: 21px;
 }
 .dastebandi__items {
-  width: 80%;
+  width: 100%;
   height: 330px;
   cursor: pointer;
   margin: 0 auto;
@@ -25,7 +25,7 @@
   column-gap: 10px;
   row-gap: 10px;
   .dastebandi__items__count {
-    width: 140px;
+    width: 11%;
     height: 160px;
     display: flex;
     justify-content: flex-start;

@@ -1,7 +1,6 @@
 .supermarket-pop-up {
   width: 130px;
   height: 50px;
-  z-index: 1000;
   .supermarket-pop-up__lable {
     width: 130px;
     height: 50px;
@@ -15,6 +14,7 @@
     justify-content: center;
     column-gap: 10px;
     border-radius: 40px;
+    z-index: 4;
     font-family: var(--iranyekan);
     color: white;
     img {
@@ -33,7 +33,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 6;
+  z-index: 100;
   font-family: var(--iranyekan);
   border-radius: 9px;
   .supermarket-pop-up__page__top {
