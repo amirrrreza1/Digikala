@@ -258,7 +258,6 @@
           height: 20px;
           margin: 0 auto;
           display: flex;
-
           justify-content: space-between;
           .AMAZING-all__main-items__ordering__products__product__tag__today-shipping {
             width: 100%;
@@ -292,8 +291,7 @@
             column-gap: 5px;
             font-size: 13px;
             align-items: center;
-            direction: ltr;
-
+            direction: rtl;
             img {
               width: 18px;
               height: 18px;
