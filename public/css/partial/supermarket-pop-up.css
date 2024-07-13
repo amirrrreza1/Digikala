@@ -1,11 +1,10 @@
 .supermarket-pop-up {
-  width: 130px;
-  height: 50px;
   .supermarket-pop-up__lable {
     width: 130px;
     height: 50px;
     display: flex;
     flex-flow: row wrap;
+    cursor: pointer;
     align-items: center;
     background-color: #00a443;
     position: fixed;

@@ -169,8 +169,7 @@ header {
           color: #424750;
           display: flex;
           align-items: center;
-                cursor: pointer;
-
+          cursor: pointer;
         }
         img {
           width: 20px;
@@ -178,7 +177,7 @@ header {
         }
         .header__bottom__city__page {
           width: 460px;
-          height: 560px;
+          height: 80vh;
           background-color: white;
           border-radius: 10px;
           position: absolute;
